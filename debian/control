@@ -1,0 +1,12 @@
+Source: ros-melodic-gazebo-video-monitor-plugins
+Section: misc
+Priority: optional
+Maintainer: Nick Lamprianidis <nlamprian@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), libopencv-dev, libyaml-cpp-dev, ros-melodic-catkin, ros-melodic-gazebo-ros, ros-melodic-message-generation, ros-melodic-roscpp, ros-melodic-std-srvs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-melodic-gazebo-video-monitor-plugins
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libopencv-dev, ros-melodic-gazebo-ros, ros-melodic-message-runtime, ros-melodic-roscpp, ros-melodic-std-srvs
+Description: The gazebo_video_monitor_plugins package
